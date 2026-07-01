@@ -6,7 +6,7 @@ maven 'Maven-3'
 stages {
 stage('Checkout') {
 steps {
-git branch: 'main', url: 'https://github.com/SinchanaNagaraj/Jenkins-demo.git'
+git branch: 'main', url: 'https://github.com/SinchanaNagaraj/Exam.git'
 }
 }
 stage('Build') {
